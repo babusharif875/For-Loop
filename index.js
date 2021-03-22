@@ -19,16 +19,85 @@ for(var x = 10; x >= 1; x = x - 1)
     document.write(""+x+"</br>");
 
 }
+
+
+
 */
-var sum = 0
-for(var x = 1; x <= 5; x = x + 1)
+
+//for loop
+
+
+/*
+var firstNum = parseFloat(prompt("Enter first number"))
+var lastNum = parseFloat(prompt("Enter last number"))
+
+
+if(firstNum>=lastNum)
 {
-    sum = sum + x;
-   
+
+
+    var sum = 0
+    for(var x = firstNum; x >= lastNum; x = x - 1)
+    {
+        sum = sum - x;
+       
+    
+    }
+    
+    
+    
+    document.write("sum = "+sum);
+    
+}
+else{
+
+    var sum = 0
+    for(var x = firstNum; x <= lastNum; x = x + 1)
+    {
+        sum = sum + x;
+       
+    
+    }
+    
+    
+    
+    document.write("sum = "+sum);
+    
+
+}
+*/
+
+
+var i = 1;
+
+while(i <= 100 )
+
+{
+
+
+document.write("Your logged in" +  "</br>")
+i= i + 1
+
 
 }
 
 
 
 
-document.write("sum = "+sum);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
